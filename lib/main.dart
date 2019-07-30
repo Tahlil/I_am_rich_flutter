@@ -10,8 +10,7 @@ void main() => runApp(
           backgroundColor: Colors.blueGrey,
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'http://sfwallpaper.com/images/best-hd-background-images-7.jpg'),
+              image: AssetImage('Images/diamond.png'),
             ),
           ),
         ),
